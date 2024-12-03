@@ -1,0 +1,15 @@
+
+.background
+{
+  background-image: url('.//Component/images/p1.jpg');
+  background-size:100% 100% ; /* Adjust as needed */
+  background-position: cover;
+  background-repeat: no-repeat;
+
+}
+.image
+{
+  text-decoration: underline;
+}
+
+

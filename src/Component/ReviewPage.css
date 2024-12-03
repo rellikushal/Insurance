@@ -1,0 +1,267 @@
+.rp-main {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-image: radial-gradient(circle at center center, rgba(217, 217, 217,0.05) 0%, rgba(217, 217, 217,0.05) 15%,rgba(197, 197, 197,0.05) 15%, rgba(197, 197, 197,0.05) 34%,rgba(178, 178, 178,0.05) 34%, rgba(178, 178, 178,0.05) 51%,rgba(237, 237, 237,0.05) 51%, rgba(237, 237, 237,0.05) 75%,rgba(138, 138, 138,0.05) 75%, rgba(138, 138, 138,0.05) 89%,rgba(158, 158, 158,0.05) 89%, rgba(158, 158, 158,0.05) 100%),radial-gradient(circle at center center, rgb(255,255,255) 0%, rgb(255,255,255) 6%,rgb(255,255,255) 6%, rgb(255,255,255) 12%,rgb(255,255,255) 12%, rgb(255,255,255) 31%,rgb(255,255,255) 31%, rgb(255,255,255) 92%,rgb(255,255,255) 92%, rgb(255,255,255) 97%,rgb(255,255,255) 97%, rgb(255,255,255) 100%); background-size: 42px 42px;
+}
+
+.profile-heading {
+  color: white;
+  margin-bottom: 20px;
+  background-color: #007bff;
+  border-radius: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.rp-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rp-card-body {
+  padding: 20px;
+}
+#mobile-field{
+  width:180px;
+  margin-top: -10px;
+}
+.mobile-field{
+  width:10px;
+}
+/* User Details Section */
+.profile-item {
+  margin-bottom: 15px;
+
+
+  display:flex;
+  align-self:center;
+  justify-content: baseline;
+  padding:5px 0;
+}
+
+.profile-item label {
+  font-weight: bold;
+  display: block;
+}
+
+.profile-item span {
+  display: inline-block;
+  /* margin-top: 5px; */
+}
+
+.profile-item input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.profile-item input:focus {
+  border-color: #007bff;
+}
+
+.otp-section {
+  margin-top: 20px;
+}
+
+.otp-input{
+  display: flex;
+  gap: 10px;
+  width: 200px;
+}
+
+.otp-box {
+  width: 10px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.otp-error {
+  color: red;
+  margin-top: 10px;
+}
+
+.otp-success {
+  color: green;
+  margin-top: 10px;
+}
+
+.otp-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:focus {
+  outline: none;
+}
+
+button i {
+  margin-right: 5px;
+}
+
+button.edit {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+button.save {
+  background-color: #28a745;
+  color: white;
+}
+
+button.verify {
+  background-color: #007bff;
+  color: white;
+}
+
+button.back-to-home {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #007bff;
+  margin-top: 20px;
+}
+
+button.back-to-home i {
+  margin-right: 5px;
+}
+.profile-card{
+  font-weight: bold;
+  background: rgb(246, 245, 245);
+}
+
+.rp-invoice {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+
+}
+.line-divider{
+ margin-left: -50px;
+}
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .rp-card-body {
+    padding: 15px;
+  }
+
+  .profile-item input {
+    padding: 10px;
+  }
+
+  .otp-inputs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .otp-box {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+  .line-divider{
+    margin-left: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rp-main {
+    padding: 10px;
+  }
+
+  .profile-heading {
+    font-size: 18px;
+  }
+
+  .profile-item input {
+    padding: 12px;
+  }
+
+  .otp-box {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+  }
+
+  .otp-buttons {
+    flex-direction: column;
+  }
+
+  .otp-buttons button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .back-to-home {
+    display: block;
+    text-align: center;
+  }
+
+  .invoice-button {
+    width: 100%;
+    text-align: center;
+  }
+}
+.otp-verification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.otp-inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.otp-input input {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+.line-divider{
+  display: none;
+}

@@ -1,0 +1,166 @@
+/* thirdpage.css */
+/* .tp-sidenav {
+  margin-top: 65px;
+}
+
+.tp-heading {
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tp-card-body {
+  background-color: aliceblue;
+}
+
+.image1 {
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+}
+
+/* Responsive styles */
+/* @media (max-width: 1200px) { */
+  /* Styles for laptops */
+  /* .tp-sidenav {
+      margin-top: 60px;
+  }
+
+  .image1 {
+      height: 35px;
+      width: 90px;
+  }
+}
+
+@media (max-width: 768px) { */
+  /* Styles for tablets */
+  /* .tp-sidenav {
+      margin-top: 55px;
+  }
+
+  .image1 {
+      height: 30px;
+      width: 80px;
+  }
+
+  .tp-heading {
+      font-size: 1.2rem;
+  }
+
+  .row {
+      flex-direction: column;
+  }
+
+  .col-lg-3, .col-lg-8 {
+      width: 100%;
+      margin: 0;
+  }
+}
+
+@media (max-width: 480px) { */
+  /* Styles for mobile phones */
+  /* .tp-sidenav {
+      margin-top: 50px;
+  }
+
+  .image1 {
+      height: 25px;
+      width: 70px;
+  }
+
+  .tp-heading {
+      font-size: 1rem;
+  }
+
+  .row {
+      flex-direction: column;
+  }
+
+  .col-lg-3, .col-lg-8 {
+      width: 100%;
+      margin: 0;
+  }
+}  */
+
+
+
+
+/* thirdpage.css */
+.tp-sidenav {
+  margin-top: 65px;
+}
+
+.tp-heading {
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tp-card-body {
+  background-color: aliceblue;
+}
+
+.image1 {
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  /* Styles for laptops */
+  .tp-sidenav {
+      margin-top: 60px;
+  }
+
+  .image1 {
+      height: 35px;
+      width: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Styles for tablets */
+  .tp-sidenav {
+      margin-top: 55px;
+  }
+
+  .image1 {
+      height: 30px;
+      width: 80px;
+  }
+
+  .tp-heading {
+      font-size: 1.2rem;
+  }
+
+  .row {
+      flex-direction: column;
+  }
+
+  .col-lg-3, .col-lg-8 {
+      width: 100%;
+      margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for mobile phones */
+  .tp-sidenav {
+      margin-top: 50px;
+  }
+
+  .image1 {
+      height: 25px;
+      width: 70px;
+  }
+
+  .tp-heading {
+      font-size: 1rem;
+  }
+
+  .row {
+      flex-direction: column;
+  }
+
+  .col-lg-3, .col-lg-8 {
+      width: 100%;
+      margin: 0;
+  }
+}

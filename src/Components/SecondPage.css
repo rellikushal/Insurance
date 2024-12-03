@@ -1,0 +1,268 @@
+.sp-form {
+  max-width: 550px;
+  margin: 1 auto;
+  /* margin-left: 70px; */
+  padding: 15px ;
+  background-color: #eaf6fc;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+.sp-form-group {
+  margin-bottom: 20px;
+}
+
+.sp-input,
+.sp-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e7edde;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.sp-textarea {
+  resize: vertical;
+}
+
+/* .sp-submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.sp-submit-button:hover {
+  background-color: #6b57f0;
+} */
+.sp-submit-button{
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  background-color: #007bff;
+  color: white;
+  font-size: 20px;
+
+}
+
+.sp-submit-button:hover {
+  transform: scale(1.01);
+  border-color: #fff9;
+}
+
+.sp-submit-button:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.sp-submit-button::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hover-button {
+  position: relative;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hover-button:hover .default-text {
+  transform: translateX(100%);
+}
+
+.hover-button:hover .hover-text {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.default-text,
+.hover-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.default-text {
+  z-index: 1;
+}
+
+.hover-text {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+/* Add your existing styles here */
+
+.sp-otp-input {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0 0.25rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+.sp-otp-button{
+  background-color: #099412;
+  color: white;
+  margin-top: 10px;
+  border-radius:5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+.sp-otp-verify-button{
+  background: rgb(8, 144, 8);
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .sp-otp-input {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.15rem;
+    font-size: 1.2rem;
+  }
+}
+
+/* Additional responsive styles for other elements can be added as needed */
+
+
+
+
+
+
+
+
+
+
+
+.sp-error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.spcard {
+  margin: 20px auto;
+  background-color: #eef1f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-text ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.card-text ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.card-text ul li i {
+  margin-right: 8px;
+  color: green;
+}
+
+.card-text ul li svg {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.sp-card1 {
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #f6f9fd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sp-carddata1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sp-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.spfontsize {
+  font-size: x-small;
+}
+
+.spquote {
+  margin-top: 60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .sp-form {
+    padding: 10px;
+  }
+
+  .sp-input,
+  .sp-textarea {
+    font-size: 14px;
+  }
+
+  .sp-submit-button {
+    font-size: 16px;
+  }
+
+  .spcard,
+  .sp-card1 {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sp-form {
+    padding: 15px;
+  }
+
+  .sp-input,
+  .sp-textarea {
+    font-size: 15px;
+  }
+
+  .sp-submit-button {
+    font-size: 17px;
+  }
+
+  .spcard,
+  .sp-card1 {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
